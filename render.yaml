@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: fleet-tracking-server
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node src/index.js
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000
+
+  - type: web
+    name: fleet-tracking-client
+    env: static
+    rootDir: client
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    plan: free
