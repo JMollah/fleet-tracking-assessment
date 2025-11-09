@@ -1,0 +1,16 @@
+[
+  {
+    "event_id": "evt_003",
+    "event_type": "trip_cancelled",
+    "timestamp": "2025-11-03T11:30:00.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "cancellation_reason": "vehicle_malfunction",
+    "location": {
+      "lat": 37.765,
+      "lng": -122.435
+    },
+    "distance_completed_km": 12.8,
+    "elapsed_time_minutes": 40
+  }
+]

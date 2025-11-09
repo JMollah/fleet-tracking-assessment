@@ -20,7 +20,7 @@ export class EventStreamer {
    * @param {string} dataDir - directory containing trip JSON files
    * @param {number} tickMs - frequency (in ms) to check and emit new events
    */
-  constructor(io, dataDir = path.resolve(__dirname, '..', 'data'), tickMs = 400) {
+  constructor(io, dataDir = path.resolve(__dirname, 'data', 'assessment'), tickMs = 400) {
     this.io = io;               // shared socket.io instance
     this.dataDir = dataDir;     // folder where trip files are located
     this.tickMs = tickMs;       // how often the event loop runs

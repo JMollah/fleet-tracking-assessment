@@ -1,0 +1,29 @@
+[
+  {
+    "event_id": "evt_006",
+    "event_type": "signal_recovered",
+    "timestamp": "2025-11-03T11:15:45.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "location": {
+      "lat": 37.7528,
+      "lng": -121.9485,
+      "accuracy_meters": 12.5,
+      "altitude_meters": 48.7
+    },
+    "movement": {
+      "speed_kmh": 62.0,
+      "heading_degrees": 128.7,
+      "moving": true
+    },
+    "distance_travelled_km": 46.2,
+    "signal_quality": "fair",
+    "device": {
+      "battery_level": 78.4,
+      "charging": false
+    },
+    "overspeed": true,
+    "signal_lost_duration_seconds": 37,
+    "signal_quality_after_recovery": "fair"
+  }
+]

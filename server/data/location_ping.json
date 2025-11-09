@@ -1,0 +1,27 @@
+[
+  {
+    "event_id": "evt_004",
+    "event_type": "location_ping",
+    "timestamp": "2025-11-03T10:05:00.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "location": {
+      "lat": 37.7751,
+      "lng": -122.4189,
+      "accuracy_meters": 8.5,
+      "altitude_meters": 15.2
+    },
+    "movement": {
+      "speed_kmh": 45.0,
+      "heading_degrees": 85.3,
+      "moving": true
+    },
+    "distance_travelled_km": 12.5,
+    "signal_quality": "excellent",
+    "device": {
+      "battery_level": 87.3,
+      "charging": false
+    },
+    "overspeed": false
+  }
+]

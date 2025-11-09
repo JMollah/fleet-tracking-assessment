@@ -1,0 +1,28 @@
+[
+  {
+    "event_id": "evt_008",
+    "event_type": "vehicle_moving",
+    "timestamp": "2025-11-03T10:48:00.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "location": {
+      "lat": 37.795,
+      "lng": -122.4,
+      "accuracy_meters": 8.5,
+      "altitude_meters": 25.2
+    },
+    "movement": {
+      "speed_kmh": 15.0,
+      "heading_degrees": 95.3,
+      "moving": true
+    },
+    "distance_travelled_km": 25.8,
+    "signal_quality": "good",
+    "device": {
+      "battery_level": 82.1,
+      "charging": false
+    },
+    "overspeed": false,
+    "stop_duration_minutes": 13
+  }
+]

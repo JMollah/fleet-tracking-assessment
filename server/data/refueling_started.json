@@ -1,0 +1,27 @@
+[
+  {
+    "event_id": "evt_014",
+    "event_type": "refueling_started",
+    "timestamp": "2025-11-03T13:25:00.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "location": {
+      "lat": 37.7935,
+      "lng": -122.3894,
+      "accuracy_meters": 8.5,
+      "altitude_meters": 35.2
+    },
+    "movement": {
+      "speed_kmh": 45.0,
+      "heading_degrees": 125.3,
+      "moving": true
+    },
+    "distance_travelled_km": 105.8,
+    "signal_quality": "good",
+    "device": {
+      "battery_level": 62.1,
+      "charging": false
+    },
+    "overspeed": false
+  }
+]

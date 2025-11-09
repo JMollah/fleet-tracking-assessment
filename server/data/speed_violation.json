@@ -1,0 +1,30 @@
+[
+  {
+    "event_id": "evt_009",
+    "event_type": "speed_violation",
+    "timestamp": "2025-11-03T11:47:20.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "location": {
+      "lat": 37.7895,
+      "lng": -122.3752,
+      "accuracy_meters": 8.5,
+      "altitude_meters": 35.2
+    },
+    "movement": {
+      "speed_kmh": 120.0,
+      "heading_degrees": 185.3,
+      "moving": true
+    },
+    "distance_travelled_km": 85.8,
+    "signal_quality": "excellent",
+    "device": {
+      "battery_level": 65.1,
+      "charging": false
+    },
+    "overspeed": true,
+    "speed_limit_kmh": 105,
+    "violation_amount_kmh": 15,
+    "severity": "moderate"
+  }
+]

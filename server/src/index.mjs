@@ -6,6 +6,7 @@ import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
 import { EventStreamer } from "./eventStreamer.js"; // <-- import your new class
+import { startEventSimulation } from "./eventGenerator.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -26,7 +27,7 @@ const io = new Server(server, {
 const PORT = 4000;
 
 // ✅ Initialize EventStreamer
-const dataDir = path.resolve(__dirname, "../data"); // folder containing trip_xxx.json files
+const dataDir = path.resolve(__dirname, "../data/assessment"); // folder containing trip_xxx.json files
 const streamer = new EventStreamer(io, dataDir, 500); // emits every 500ms
 streamer.loadTrips();
 
@@ -58,6 +59,8 @@ io.on("connection", (socket) => {
 app.get("/", (req, res) => {
   res.send("Fleet Tracking Server is running!");
 });
+
+startEventSimulation(io);
 
 server.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);

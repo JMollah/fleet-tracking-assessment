@@ -1,0 +1,30 @@
+[
+  {
+    "event_id": "evt_012",
+    "event_type": "battery_low",
+    "timestamp": "2025-11-03T15:30:00.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "location": {
+      "lat": 37.815,
+      "lng": -122.35,
+      "accuracy_meters": 8.5,
+      "altitude_meters": 45.2
+    },
+    "movement": {
+      "speed_kmh": 35.0,
+      "heading_degrees": 125.3,
+      "moving": true
+    },
+    "distance_travelled_km": 125.8,
+    "signal_quality": "good",
+    "device": {
+      "battery_level": 9.5,
+      "charging": false
+    },
+    "overspeed": false,
+    "battery_level_percent": 9.5,
+    "threshold_percent": 10,
+    "estimated_remaining_hours": 2.5
+  }
+]

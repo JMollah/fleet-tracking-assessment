@@ -1,0 +1,35 @@
+[
+  {
+    "event_id": "evt_010",
+    "event_type": "vehicle_telemetry",
+    "timestamp": "2025-11-03T10:15:42.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "location": {
+      "lat": 37.7758,
+      "lng": -122.4181,
+      "accuracy_meters": 8.5,
+      "altitude_meters": 15.2
+    },
+    "movement": {
+      "speed_kmh": 55.0,
+      "heading_degrees": 85.3,
+      "moving": true
+    },
+    "distance_travelled_km": 15.8,
+    "signal_quality": "excellent",
+    "device": {
+      "battery_level": 87.3,
+      "charging": false
+    },
+    "overspeed": false,
+    "telemetry": {
+      "odometer_km": 125678.5,
+      "fuel_level_percent": 68.5,
+      "engine_hours": 8456,
+      "coolant_temp_celsius": 90,
+      "oil_pressure_kpa": 290,
+      "battery_voltage": 13.8
+    }
+  }
+]

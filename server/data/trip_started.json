@@ -1,0 +1,16 @@
+[
+  {
+    "event_id": "evt_001",
+    "event_type": "trip_started",
+    "timestamp": "2025-11-03T10:00:00.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "device_id": "GPS_DEVICE_789",
+    "location": {
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "planned_distance_km": 142.5,
+    "estimated_duration_hours": 4.5
+  }
+]

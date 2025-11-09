@@ -1,0 +1,17 @@
+[
+  {
+    "event_id": "evt_002",
+    "event_type": "trip_completed",
+    "timestamp": "2025-11-03T14:30:00.000Z",
+    "vehicle_id": "VH_123",
+    "trip_id": "trip_20251103_100000",
+    "device_id": "GPS_DEVICE_789",
+    "location": {
+      "lat": 37.8044,
+      "lng": -122.2712
+    },
+    "total_distance_km": 142.5,
+    "duration_minutes": 270,
+    "fuel_consumed_percent": 18.5
+  }
+]
