@@ -5,7 +5,6 @@ services:
     rootDir: server
     buildCommand: npm install
     startCommand: node src/index.mjs
-    plan: free
     envVars:
       - key: NODE_ENV
         value: production
@@ -18,4 +17,3 @@ services:
     rootDir: client
     buildCommand: npm install && npm run build
     staticPublishPath: dist
-    plan: free
